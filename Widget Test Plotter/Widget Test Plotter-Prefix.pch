@@ -1,0 +1,19 @@
+//
+// Prefix header for all source files of the 'Widget Test Plotter' target in the 'Widget Test Plotter' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+#ifdef DEBUG
+#define MyLog(args...)    NSLog( @"%@", [NSString stringWithFormat: args])
+#define LogMethod() NSLog(@"%@ %@ %s (line %d)", NSStringFromSelector(_cmd), self, __PRETTY_FUNCTION__, __LINE__)
+
+#else
+// DEBUG not defined:
+
+#define MyLog(args...)    // do nothing.
+#define LogMethod()
+
+#endif
