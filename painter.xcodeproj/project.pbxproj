@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B01464D8163F76360097B6AC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01464D7163F76360097B6AC /* Cocoa.framework */; };
+		B01464E2163F76360097B6AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B01464E0163F76360097B6AC /* InfoPlist.strings */; };
+		B01464E4163F76360097B6AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B01464E3163F76360097B6AC /* main.m */; };
+		B01464E8163F76360097B6AC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B01464E6163F76360097B6AC /* Credits.rtf */; };
+		B01464EB163F76360097B6AC /* MdAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B01464EA163F76360097B6AC /* MdAppDelegate.m */; };
+		B01464EE163F76360097B6AC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B01464EC163F76360097B6AC /* MainMenu.xib */; };
+		B01464F6163F76370097B6AC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01464F5163F76370097B6AC /* SenTestingKit.framework */; };
+		B01464F7163F76370097B6AC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01464D7163F76360097B6AC /* Cocoa.framework */; };
+		B01464FF163F76370097B6AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B01464FD163F76370097B6AC /* InfoPlist.strings */; };
+		B0146502163F76370097B6AC /* painterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0146501163F76370097B6AC /* painterTests.m */; };
+		B014650D163F76660097B6AC /* MdSeer.m in Sources */ = {isa = PBXBuildFile; fileRef = B014650C163F76660097B6AC /* MdSeer.m */; };
+		B01465231640BC690097B6AC /* icon_16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = B01465221640BC690097B6AC /* icon_16x16.png */; };
+		B0D0A43F16454C0D00E3159E /* music_in_err.icns in Resources */ = {isa = PBXBuildFile; fileRef = B0D0A43E16454C0D00E3159E /* music_in_err.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B01464F8163F76370097B6AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B01464CA163F76360097B6AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B01464D2163F76360097B6AC;
+			remoteInfo = painter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B01464D3163F76360097B6AC /* painter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = painter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01464D7163F76360097B6AC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B01464DA163F76360097B6AC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B01464DB163F76360097B6AC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B01464DC163F76360097B6AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B01464DF163F76360097B6AC /* painter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "painter-Info.plist"; sourceTree = "<group>"; };
+		B01464E1163F76360097B6AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B01464E3163F76360097B6AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B01464E5163F76360097B6AC /* painter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "painter-Prefix.pch"; sourceTree = "<group>"; };
+		B01464E7163F76360097B6AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B01464E9163F76360097B6AC /* MdAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MdAppDelegate.h; sourceTree = "<group>"; };
+		B01464EA163F76360097B6AC /* MdAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MdAppDelegate.m; sourceTree = "<group>"; };
+		B01464ED163F76360097B6AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B01464F4163F76370097B6AC /* painterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = painterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01464F5163F76370097B6AC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B01464FC163F76370097B6AC /* painterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "painterTests-Info.plist"; sourceTree = "<group>"; };
+		B01464FE163F76370097B6AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0146500163F76370097B6AC /* painterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = painterTests.h; sourceTree = "<group>"; };
+		B0146501163F76370097B6AC /* painterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = painterTests.m; sourceTree = "<group>"; };
+		B014650B163F76660097B6AC /* MdSeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MdSeer.h; sourceTree = "<group>"; };
+		B014650C163F76660097B6AC /* MdSeer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MdSeer.m; sourceTree = "<group>"; };
+		B01465221640BC690097B6AC /* icon_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_16x16.png; sourceTree = "<group>"; };
+		B0D0A43E16454C0D00E3159E /* music_in_err.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = music_in_err.icns; path = ../../../../Documents/cp210/incoming/music_in_err.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B01464D0163F76360097B6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01464D8163F76360097B6AC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01464F0163F76370097B6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01464F6163F76370097B6AC /* SenTestingKit.framework in Frameworks */,
+				B01464F7163F76370097B6AC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B01464C8163F76360097B6AC = {
+			isa = PBXGroup;
+			children = (
+				B01465221640BC690097B6AC /* icon_16x16.png */,
+				B014650B163F76660097B6AC /* MdSeer.h */,
+				B014650C163F76660097B6AC /* MdSeer.m */,
+				B01464DD163F76360097B6AC /* painter */,
+				B01464FA163F76370097B6AC /* painterTests */,
+				B01464D6163F76360097B6AC /* Frameworks */,
+				B01464D4163F76360097B6AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B01464D4163F76360097B6AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B01464D3163F76360097B6AC /* painter.app */,
+				B01464F4163F76370097B6AC /* painterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B01464D6163F76360097B6AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B01464D7163F76360097B6AC /* Cocoa.framework */,
+				B01464F5163F76370097B6AC /* SenTestingKit.framework */,
+				B01464D9163F76360097B6AC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B01464D9163F76360097B6AC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B01464DA163F76360097B6AC /* AppKit.framework */,
+				B01464DB163F76360097B6AC /* CoreData.framework */,
+				B01464DC163F76360097B6AC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B01464DD163F76360097B6AC /* painter */ = {
+			isa = PBXGroup;
+			children = (
+				B01464E9163F76360097B6AC /* MdAppDelegate.h */,
+				B01464EA163F76360097B6AC /* MdAppDelegate.m */,
+				B01464EC163F76360097B6AC /* MainMenu.xib */,
+				B01464DE163F76360097B6AC /* Supporting Files */,
+			);
+			path = painter;
+			sourceTree = "<group>";
+		};
+		B01464DE163F76360097B6AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0D0A43E16454C0D00E3159E /* music_in_err.icns */,
+				B01464DF163F76360097B6AC /* painter-Info.plist */,
+				B01464E0163F76360097B6AC /* InfoPlist.strings */,
+				B01464E3163F76360097B6AC /* main.m */,
+				B01464E5163F76360097B6AC /* painter-Prefix.pch */,
+				B01464E6163F76360097B6AC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B01464FA163F76370097B6AC /* painterTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0146500163F76370097B6AC /* painterTests.h */,
+				B0146501163F76370097B6AC /* painterTests.m */,
+				B01464FB163F76370097B6AC /* Supporting Files */,
+			);
+			path = painterTests;
+			sourceTree = "<group>";
+		};
+		B01464FB163F76370097B6AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B01464FC163F76370097B6AC /* painterTests-Info.plist */,
+				B01464FD163F76370097B6AC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B01464D2163F76360097B6AC /* painter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0146505163F76370097B6AC /* Build configuration list for PBXNativeTarget "painter" */;
+			buildPhases = (
+				B01464CF163F76360097B6AC /* Sources */,
+				B01464D0163F76360097B6AC /* Frameworks */,
+				B01464D1163F76360097B6AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = painter;
+			productName = painter;
+			productReference = B01464D3163F76360097B6AC /* painter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B01464F3163F76370097B6AC /* painterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0146508163F76370097B6AC /* Build configuration list for PBXNativeTarget "painterTests" */;
+			buildPhases = (
+				B01464EF163F76370097B6AC /* Sources */,
+				B01464F0163F76370097B6AC /* Frameworks */,
+				B01464F1163F76370097B6AC /* Resources */,
+				B01464F2163F76370097B6AC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B01464F9163F76370097B6AC /* PBXTargetDependency */,
+			);
+			name = painterTests;
+			productName = painterTests;
+			productReference = B01464F4163F76370097B6AC /* painterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B01464CA163F76360097B6AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Md;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = net.dzeek.cp210;
+			};
+			buildConfigurationList = B01464CD163F76360097B6AC /* Build configuration list for PBXProject "painter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B01464C8163F76360097B6AC;
+			productRefGroup = B01464D4163F76360097B6AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B01464D2163F76360097B6AC /* painter */,
+				B01464F3163F76370097B6AC /* painterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B01464D1163F76360097B6AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01464E2163F76360097B6AC /* InfoPlist.strings in Resources */,
+				B01464E8163F76360097B6AC /* Credits.rtf in Resources */,
+				B01464EE163F76360097B6AC /* MainMenu.xib in Resources */,
+				B01465231640BC690097B6AC /* icon_16x16.png in Resources */,
+				B0D0A43F16454C0D00E3159E /* music_in_err.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01464F1163F76370097B6AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01464FF163F76370097B6AC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B01464F2163F76370097B6AC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B01464CF163F76360097B6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01464E4163F76360097B6AC /* main.m in Sources */,
+				B01464EB163F76360097B6AC /* MdAppDelegate.m in Sources */,
+				B014650D163F76660097B6AC /* MdSeer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01464EF163F76370097B6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0146502163F76370097B6AC /* painterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B01464F9163F76370097B6AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B01464D2163F76360097B6AC /* painter */;
+			targetProxy = B01464F8163F76370097B6AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B01464E0163F76360097B6AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B01464E1163F76360097B6AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B01464E6163F76360097B6AC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B01464E7163F76360097B6AC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B01464EC163F76360097B6AC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B01464ED163F76360097B6AC /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		B01464FD163F76370097B6AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B01464FE163F76370097B6AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0146503163F76370097B6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B0146504163F76370097B6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B0146506163F76370097B6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "painter/painter-Prefix.pch";
+				INFOPLIST_FILE = "painter/painter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B0146507163F76370097B6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "painter/painter-Prefix.pch";
+				INFOPLIST_FILE = "painter/painter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B0146509163F76370097B6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/painter.app/Contents/MacOS/painter";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "painter/painter-Prefix.pch";
+				INFOPLIST_FILE = "painterTests/painterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B014650A163F76370097B6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/painter.app/Contents/MacOS/painter";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "painter/painter-Prefix.pch";
+				INFOPLIST_FILE = "painterTests/painterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B01464CD163F76360097B6AC /* Build configuration list for PBXProject "painter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0146503163F76370097B6AC /* Debug */,
+				B0146504163F76370097B6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0146505163F76370097B6AC /* Build configuration list for PBXNativeTarget "painter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0146506163F76370097B6AC /* Debug */,
+				B0146507163F76370097B6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0146508163F76370097B6AC /* Build configuration list for PBXNativeTarget "painterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0146509163F76370097B6AC /* Debug */,
+				B014650A163F76370097B6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B01464CA163F76360097B6AC /* Project object */;
+}
