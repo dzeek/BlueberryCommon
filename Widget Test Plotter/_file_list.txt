@@ -1,0 +1,10 @@
+./AppDelegate.h
+./KeyStrings.h
+./WidgetTester.h
+./WidgetTestObservationPoint.h
+./WidgetTestRunView.h
+./AppDelegate.m
+./main.m
+./WidgetTester.m
+./WidgetTestObservationPoint.m
+./WidgetTestRunView.m

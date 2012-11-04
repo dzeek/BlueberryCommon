@@ -1,0 +1,19 @@
+./MdSeer.h
+./painter/MdAppDelegate.h
+./painterTests/painterTests.h
+./Widget Test Plotter/AppDelegate.h
+./Widget Test Plotter/KeyStrings.h
+./Widget Test Plotter/WidgetTester.h
+./Widget Test Plotter/WidgetTestObservationPoint.h
+./Widget Test Plotter/WidgetTestRunView.h
+./Widget Test PlotterTests/Widget_Test_PlotterTests.h
+./MdSeer.m
+./painter/main.m
+./painter/MdAppDelegate.m
+./painterTests/painterTests.m
+./Widget Test Plotter/AppDelegate.m
+./Widget Test Plotter/main.m
+./Widget Test Plotter/WidgetTester.m
+./Widget Test Plotter/WidgetTestObservationPoint.m
+./Widget Test Plotter/WidgetTestRunView.m
+./Widget Test PlotterTests/Widget_Test_PlotterTests.m

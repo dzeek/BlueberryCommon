@@ -54,6 +54,12 @@ NSString *drawingStyleKey = @"drawingStyle";
 }
 
 - (IBAction)summarizeToCopyBuffer:(id)sender {
+    NSPasteboard *pb = [NSPasteboard generalPasteboard];
+    [pb clearContents];
+    
+    ;
+    // [pb writeObjects:[NSArray arrayWithObject:@"hello pasteboard"]];
+    [pb writeObjects:[NSArray arrayWithObject:[[self widgetTester] summary]]];
 }
 
 @end
