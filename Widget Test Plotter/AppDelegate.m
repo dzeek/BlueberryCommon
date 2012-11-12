@@ -34,6 +34,10 @@ NSString *drawingStyleKey = @"drawingStyle";
     
     self.widgetTester = [[[WidgetTester alloc] init] autorelease];
     self.testView.widgetTester = self.widgetTester;
+    
+    // this is so that widgetTester can cause redraw
+    [[self widgetTester] masterView:self.testView];
+
     [self.testView setNeedsDisplay:YES];
 }
 
@@ -49,6 +53,7 @@ NSString *drawingStyleKey = @"drawingStyle";
 - (IBAction)performNewTest:(id)sender
 {
     LogMethod();
+    [self.widgetTester fillTotalRunDataWithRandom];
     [self.widgetTester performTest];
     [self.testView setNeedsDisplay:YES];
 }
