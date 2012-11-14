@@ -60,34 +60,29 @@
 
 - (void) setWidgetSignalSourceOn:(BOOL)flag
 {
-    [self resetElapsedTime];
+    // [self resetElapsedTime];
     if (flag) {
-        NSLog(@"Signal on please");
+        NSLog(@"WidgTest.setWidgetSignalSourceOn ... Signal on please");
         if (timer == nil) {
-            NSLog(@"... scheduling input signal");
+            NSLog(@"WidgTest.setWidgetSignalSourceOn ... scheduling input signal");
             // Create a timer
 	        timer = [NSTimer scheduledTimerWithTimeInterval:0.5
     			target:self
     			selector:@selector(inputSignal:)
                      userInfo:nil repeats:YES ];
         } else {
-            NSLog(@"no action necessary");
+            NSLog(@"WidgTest.setWidgetSignalSourceOn ... no action necessary (timer avail)");
         }
     } else {
         NSLog(@"Stop Signal");
         if (timer == nil) {
-            NSLog(@"... no action necessary");
-            // Create a timer
-	    // timer = [NSTimer scheduledTimerWithTimeInterval:0.1
-    	    // 		target:self
-    	    // 		selector:@selector(inputSignal:)
-    	    // 		repeats:YES];
+            NSLog(@"WidgTest.setWidgetSignalSourceOn ... no action necessary (timer already gone?)");
         } else {
-            NSLog(@"... stopping timer");
-	    // Invalidate and release the timer
+            NSLog(@"WidgTest.setWidgetSignalSourceOn ... stopping timer");
+	        // Invalidate and release the timer
             local_signal_ladder = 0;
-	    [timer invalidate];
-	    timer = nil;
+	        [timer invalidate];
+	        timer = nil;
         }
         
     }
@@ -104,7 +99,7 @@
     // change scan from sample-size to 'ladder' incremented by input_signal
     //    NSUInteger testDataLength = self.sampleSize;
     NSUInteger totalDataLength = self.sampleSize;
-    int testDataLength = local_signal_ladder;
+    NSUInteger testDataLength = local_signal_ladder;
     if (testDataLength > totalDataLength) testDataLength = totalDataLength;
     if (testDataLength < 1) testDataLength = 1;
     self.testData = [NSMutableArray arrayWithCapacity:testDataLength];
